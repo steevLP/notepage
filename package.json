@@ -1,3 +1,43 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5f06b97cbac180badf3ff2214d9398d7ab7e6c93180448811abe2676791c75d7
-size 2119
+{
+  "name": "notepage",
+  "version": "1.0.30",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "publish": "electron-builder --publish always",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.pixeldev.notepage",
+    "icon": "assets/icons/win/icon.ico",
+    "nsis": {
+      "installerIcon": "assets/icons/win/icon.ico",
+      "uninstallerIcon": "assets/icons/win/icon.ico"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steevLP/notepage.git"
+  },
+  "author": "steev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steevLP/notepage/issues"
+  },
+  "homepage": "https://github.com/steevLP/notepage#readme",
+  "dependencies": {
+    "discord-rich-presence": "0.0.8",
+    "electron-log": "^3.0.6",
+    "electron-prompt": "^1.3.1",
+    "electron-updater": "^4.0.6",
+    "fs": "0.0.1-security",
+    "hotkeys-js": "^3.6.11",
+    "register-scheme": "0.0.2"
+  },
+  "devDependencies": {
+    "electron": "^5.0.2",
+    "electron-builder": "^20.43.0"
+  }
+}

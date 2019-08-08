@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #36393f;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+    </style>
+    <filter id="filter" x="38" y="38" width="1834" height="1006" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="38" y="489" width="1834" height="102" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Abgerundetes_Rechteck_2" data-name="Abgerundetes Rechteck 2" class="cls-1" d="M48,606H1862a10,10,0,0,1,10,10v418a10,10,0,0,1-10,10H48a10,10,0,0,1-10-10V616A10,10,0,0,1,48,606ZM48,38H1862a10,10,0,0,1,10,10V466a10,10,0,0,1-10,10H48a10,10,0,0,1-10-10V48A10,10,0,0,1,48,38Z"/>
+  <rect id="Abgerundetes_Rechteck_3" data-name="Abgerundetes Rechteck 3" class="cls-2" x="38" y="489" width="1834" height="102" rx="10" ry="10"/>
+</svg>

@@ -1,0 +1,196 @@
+body { 
+    margin:0; 
+    padding: 0; 
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* UI */
+.dragable{
+    -webkit-app-region: drag;
+    margin: 0;
+    display: flex;
+    background-color: #0b4d3f;
+    width: auto;
+    margin-right: 80px;
+    height: 20px;
+}
+.topui{
+    margin: 0;
+    display: flex;
+    background-color: #10705d;
+    width: 100%;
+    margin-right: 5px;
+}
+.sideUI{
+    position:absolute;
+    display: flex;
+    bottom: 0;
+    top: 100px;
+    width: 200px;
+    min-height: auto;
+    background-color: #10705d;
+}
+
+/* Buttons */
+#closeDown{
+    position: absolute;
+    right: 0;
+    top:0;
+    margin: 0;
+    padding:0;
+    color: #34b17d;
+    border: none;
+    font-size: 20px;
+    width: 18px;
+    height: 18px;
+    background: none;
+    transition: 0.2s;
+    margin-right: 5px;
+}
+#maximize{
+    position: absolute;
+    right: 22px;
+    top:0;
+    margin: 0;
+    padding:0;
+    margin-bottom: 5px;
+    color: #34b17d;
+    border: none;
+    font-size: 20px;
+    width: 18px;
+    height: 18px;
+    background: none;
+    transition: 0.2s;
+    margin-right: 6px;
+}
+#minimize{
+    position: absolute;
+    right: 44px;
+    top:0;
+    margin: 0;
+    padding:0;
+    margin-bottom: 5px;
+    color: #34b17d;
+    border: none;
+    font-size: 20px;
+    width: 18px;
+    height: 18px;
+    background: none;
+    transition: 0.2s;
+    margin-right: 6px;
+}
+
+/* Form Styling */
+#note{
+    display: flex;
+    width: 99%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    resize: none;
+}
+
+/* wysiwyg */
+.toolbar{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(10px,auto));
+    background-color:#2ecc71;
+    color: rgb(0, 0, 0);
+    grid-gap: 10px;
+    justify-content: left;
+    align-items:left;
+    margin-left: 210px;
+    margin-right: 10px;
+}
+.tool-items{
+    background-color: #27ae60;
+    border: none;
+    padding-top: .6rem;
+    padding-bottom:.6rem;
+    cursor: pointer;
+    color: #ffff;
+    min-width: auto;
+}
+.tool-items:hover{
+    box-shadow: none;
+    background-color: #6b5e5e;
+}
+
+.pickerBody{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    padding-left: 20px; 
+    padding-right: 18px; 
+    position: absolute; 
+    top: 15px;
+    left: 360px;
+    height: auto;
+    width: 340px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+}
+.pickerItem{
+    float:left;
+    list-style: none;
+    border: none;
+    background: none;
+    font-size:20px;
+    transition: 0.2s;
+}
+.pickerItem:hover{ cursor: pointer; font-weight: bold; }
+.center{
+    overflow-y: scroll;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    right: 5px;
+    bottom: 5px;
+    left: 205px;
+    top: 140px;
+}
+
+.editor{
+    padding: 1rem;
+    width: 100%;
+    min-height: auto;
+    font-size: 1.2rem;
+    background-color: #19ac8c;
+    overflow-y: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Seperator UI */
+hr{ border-bottom: 2px solid white; font-weight: bold; }
+
+.center.editor:active{ border:none; }
+.center.editor:focus{ border:none; }
+.note-list{
+    display: flexbox;
+    width: 90%;
+    margin-right: 10px;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    overflow-y: scroll;
+}
+.note{ list-style: none; color:white; font-family: Arial, Helvetica, sans-serif; }
+.note:hover{ cursor: pointer; font-weight: bold; }
+
+/* Button Hover Styling */
+#maximize:hover{ color: #27ae60; }
+#minimize:hover{ color: #27ae60; }
+#closeDown:hover{ color: #27ae60; }
+
+/* Text Tag Restyling */
+.topui h1{ display: flex; color: white; margin-left: 10px; }
+.sideUI h1{ display: flex; color: white; margin-left: 10px; }
+.dragable h1{ display: flex;color: white; margin-left: 10px; }
+.dragable .text-container{ margin-left: 10px; line-height: 20px; color: white; width: auto; }
