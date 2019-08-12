@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.pixeldev.notepage
+icon: assets/icons/win/icon.ico
+nsis:
+  installerIcon: assets/icons/win/icon.ico
+  uninstallerIcon: assets/icons/win/icon.ico
+electronVersion: 5.0.2

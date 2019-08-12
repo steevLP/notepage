@@ -37,6 +37,7 @@ function save(){
     }else{
         fs.mkdirSync(`C:/Users/${OSname}/Documents/${projName}`);
     }
+    location.reload();
 }
 
 //Button Event Handler

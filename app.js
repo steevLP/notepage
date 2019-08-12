@@ -181,6 +181,7 @@ autoUpdater.on('update-downloaded', () => {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.on('ready', () =>{
+    
     autoUpdater.checkForUpdates();
     createWindow();
 })
