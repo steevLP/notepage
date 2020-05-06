@@ -7,7 +7,9 @@ I have moved the Notepage Repos to a Github Organisation.
 This Repo here only acts as a release Server
 
 # Copyright
-keep in mind all rights on Notepage and it's code are reserved to steev and steev only.
+keep in mind all rights on Notepage and it's code are reserved to me and only me.
+i do not distribute my software anywhere else then on https://notpage.github.io or here!
+If you do find Notepage somewhere else please Report to me as fast as possible.
 you are not allowed to redistribute or change this code in any way.
 
 I do not Support Any versions of Notepge i not distributed myself or that have been changed in any form.
